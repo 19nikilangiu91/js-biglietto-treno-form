@@ -29,7 +29,7 @@ if (utenteEta < 18){
 
 // Output
 
-const nome = document.getElementById("input");
+const nome = document.getElementById("output");
 const inputField = document.getElementById("name");
 const myButton = document.querySelector("button");
 
@@ -37,9 +37,10 @@ myButton.addEventListener("click",
 
     function(){
         const titolo = inputField.value;
-        output.innerHTML = titolo;
+        nome.innerHTML = titolo;
         inputField.value = null;
     }
+
 )
     
 

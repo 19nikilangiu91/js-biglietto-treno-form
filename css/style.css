@@ -1,11 +1,17 @@
 h1{
     text-align: center;
 }
+
+#title{
+    background-color: red;
+}
 .flex{
     display: flex;
     justify-content: space-around;
+    background-color: red;
 }
 
-button{
+.bottone{
     text-align: center;
+    background-color: red;
 }

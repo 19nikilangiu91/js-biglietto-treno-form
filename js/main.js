@@ -47,10 +47,13 @@ myButton.addEventListener("click",
         // Output
 
         document.getElementById("title").innerHTML= `Con l'acquisto di questo biglietto,
-        potrà percorrere ${titolokm}Km e avendo ${titoloeta} anni, avrà il diritto di uno
+        potrà percorrere ${titolokm}Km ed essendo ${titoloeta}, avrà il diritto di uno
         sconto del ${sconto}%, il suo prezzo sarà di ${prezzoTotale}€ e il suo prezzo scontato totale sarà di ${prezzoScontato.toFixed(2)}€.`
     }
 )
+
+
+
         
 
 

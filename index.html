@@ -10,7 +10,9 @@
 <body>
 
     <div class="image">
+
         <h1>Calcola il prezzo del tuo biglietto</h1>
+
         <div class="flex">
             <div>
                 <h2 id="input"> Nome e Cognome</h2>
@@ -33,7 +35,14 @@
             <div>
                 <h2 id="input">Inserisci l'età</h2>
             
-                <input type="text" id="eta" placeholder="inserisci qui i dati">
+                <!-- <input type="text" id="eta" placeholder="inserisci qui i dati"> -->
+
+                <select id="eta" aria-label="Default select example">                 
+                    <option selected>Scegli la tua fascia d'età</option>
+                    <option value="minore">Minore</option>                 
+                    <option value="over65">Over65</option>                 
+                    <option value="altro">Altro</option>               
+                </select>
 
                 <h2 id="outputthree"></h2>
             

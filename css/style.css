@@ -1,4 +1,11 @@
+h1{
+    text-align: center;
+}
 .flex{
     display: flex;
     justify-content: space-around;
+}
+
+button{
+    text-align: center;
 }

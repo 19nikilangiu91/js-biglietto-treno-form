@@ -1,4 +1,3 @@
-
 const prezzoKm = 0.21;
 
 // Variabili
@@ -7,40 +6,28 @@ let utenteKm, utenteEta, sconto;
 
 sconto = 0;
 
-if (utenteEta < 18){
-    sconto = 20;
-} else if (utenteEta >= 65){
-    sconto = 40;
-}
-
-// console.log(sconto)
-
-// Calcolare il prezzo totale del biglietto
-
-// const prezzoTotale = prezzoKm * utenteKm;
-
-// console.log(prezzoTotale)
-
-// Calcolare il prezzo scontanto del biglietto
-
-// const prezzoScontato = prezzoTotale * (100 - sconto) / 100;
-
-// console.log(prezzoScontato)
-
-// Output
-
-const nome = document.getElementById("output");
-const inputField = document.getElementById("name");
+const nome = document.getElementById("outputone");
+const km = document.getElementById("outputtwo");
+const etaClient = document.getElementById("outputthree");
+const nameField = document.getElementById("name");
+const kmField = document.getElementById("km");
+const etaField = document.getElementById("eta");
 const myButton = document.querySelector("button");
 
 myButton.addEventListener("click",
 
     function(){
-        const titolo = inputField.value;
+        const titolo = nameField.value;
+        const titolokm = kmField.value;
+        const titoloeta = etaField.value;
         nome.innerHTML = titolo;
-        inputField.value = null;
+        km.innerHTML = titolokm;
+        etaClient.innerHTML = titoloeta;
+        nameField.value = null;
+        kmField.value = null;
+        etaField.value = null;
     }
-
 )
+
     
 
